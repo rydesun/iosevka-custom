@@ -1,0 +1,24 @@
+[buildPlans.custom]
+family = "Iosevka Custom"
+design = ["sp-term", "no-ligation",
+  "ss04", # Menlo style
+  "VXCW", # g	earless
+  "cv92", # G	toothless
+  "cv69", # k	curly leg
+  "VXCA", # Q	inner tail
+  "cv83", # R	curly leg
+  "cv72", # vV	curly
+  "cv76", # w	curly middle
+  "cv30", # ^	lower
+  "VXCK", # %	continuous
+]
+
+[buildPlans.custom.widths.normal]
+shape = 576 # default: 500, min: 434, max: 664
+menu  = 5
+css   = "normal"
+
+[buildPlans.custom.widths.extended]
+shape = 664 # default: 576, min: 434, max: 664
+menu  = 9
+css   = "expanded"

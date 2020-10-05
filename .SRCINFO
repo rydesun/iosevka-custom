@@ -1,0 +1,18 @@
+pkgbase = ttf-iosevka-custom
+	pkgdesc = Typeface family designed for coding, terminal use and technical documents.
+	pkgver = 3.6.2
+	pkgrel = 1
+	url = https://github.com/be5invis/Iosevka
+	arch = any
+	license = custom
+	makedepends = ttfautohint
+	makedepends = otfcc
+	makedepends = python-pip
+	makedepends = nvm
+	makedepends = npm
+	makedepends = git
+	source = private-build-plans.toml
+	sha256sums = SKIP
+
+pkgname = ttf-iosevka-custom
+
