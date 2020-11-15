@@ -5,6 +5,7 @@ pkgver=3.7.1
 pkgrel=1
 pkgdesc='Typeface family designed for coding, terminal use and technical documents.'
 arch=('any')
+groups=("custom")
 license=('custom')
 url='https://github.com/be5invis/Iosevka'
 makedepends=('ttfautohint' 'otfcc' 'python-pip' 'npm' 'git')
