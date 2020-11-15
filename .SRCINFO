@@ -8,7 +8,6 @@ pkgbase = ttf-iosevka-custom
 	makedepends = ttfautohint
 	makedepends = otfcc
 	makedepends = python-pip
-	makedepends = nvm
 	makedepends = npm
 	makedepends = git
 	source = private-build-plans.toml

@@ -7,7 +7,7 @@ pkgdesc='Typeface family designed for coding, terminal use and technical documen
 arch=('any')
 license=('custom')
 url='https://github.com/be5invis/Iosevka'
-makedepends=('ttfautohint' 'otfcc' 'python-pip' 'nvm' 'npm' 'git')
+makedepends=('ttfautohint' 'otfcc' 'python-pip' 'npm' 'git')
 source=('private-build-plans.toml')
 sha256sums=('SKIP')
 
@@ -25,12 +25,6 @@ build() {
   python3 -m venv $srcdir/pyvenv
   source $srcdir/pyvenv/bin/activate
   pip3 install afdko
-
-  # Setup nodejs 12.16.0
-  export NVM_DIR=$srcdir/nvm
-  source /usr/share/nvm/init-nvm.sh
-  nvm install 12.16.0
-  nvm use 12.16.0
 
   cd "$pkgname-$pkgver"
   cp $srcdir/private-build-plans.toml .
