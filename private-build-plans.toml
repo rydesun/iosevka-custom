@@ -10,13 +10,11 @@ g = 'earless-corner'
 k = 'curly'
 v = 'curly'
 w = 'curly'
-capital-g = 'toothless-corner-serifless-hooked'
 capital-q = 'crossing'
 capital-r = 'curly'
 capital-v = 'curly'
 asterisk = 'low'
 caret = 'low'
-percent = 'rings-continuous-slash'
 
 [buildPlans.custom.ligations]
 enables = ["center-ops"]
