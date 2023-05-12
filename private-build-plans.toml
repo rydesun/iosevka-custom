@@ -1,30 +1,55 @@
-[buildPlans.custom]
+[buildPlans.iosevka-custom]
 family = "Iosevka Custom"
-spacing = "fontconfig-mono"
+spacing = "fixed"
 
-[buildPlans.custom.variants]
-inherits = "ss04"
+[buildPlans.iosevka-custom.widths.normal]
+shape = 571
+menu = 5
+css = "normal"
 
-[buildPlans.custom.variants.design]
-g = 'earless-corner'
-k = 'curly'
-v = 'curly'
-w = 'curly'
-capital-q = 'crossing'
-capital-r = 'curly'
-capital-v = 'curly'
-asterisk = 'low'
-caret = 'low'
+[buildPlans.iosevka-custom.variants.design]
+capital-d = "more-rounded-serifless"
+capital-g = "toothless-corner-serifless-hooked"
+capital-k = "curly-serifless"
+capital-q = "crossing"
+capital-v = "curly"
+capital-w = "curly"
+b = "toothless-corner"
+f = "flat-hook"
+g = "earless-corner"
+k = "curly-serifless"
+l = "serifed-flat-tailed"
+r = "hookless"
+t = "flat-hook"
+v = "curly"
+w = "curly"
+lower-lambda = "curly"
+one = "base"
+two = "curly-neck"
+four = "closed"
+six = "closed-contour"
+brace = "straight"
+asterisk = "penta-low"
+underscore = "above-baseline"
+caret = "low"
+number-sign = "slanted"
+dollar = "through-cap"
+percent = "rings-continuous-slash"
+bar = "force-upright"
 
-[buildPlans.custom.ligations]
-enables = ["center-ops"]
-
-[buildPlans.custom.widths.normal]
-shape = 570 # default: 500, min: 434, max: 664
-menu  = 5
-css   = "normal"
-
-[buildPlans.custom.widths.extended]
-shape = 664 # default: 576, min: 434, max: 664
-menu  = 9
-css   = "expanded"
+[buildPlans.iosevka-custom.variants.italic]
+capital-d = "standard-serifless"
+capital-r = "curly"
+f = "flat-hook-tailed"
+g = "single-storey-earless-corner-flat-hook"
+h = "tailed"
+j = "flat-hook-serifed"
+k = "cursive-bottom-right-serifed"
+l = "tailed"
+m = "tailed-top-left-serifed"
+n = "tailed"
+p = "earless-corner"
+q = "earless-corner"
+x = "curly-serifless"
+four = "semi-open"
+number-sign = "upright"
