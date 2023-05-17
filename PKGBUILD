@@ -1,7 +1,7 @@
 # Maintainer: rydesun <rydesun@gmail.com>
 
 pkgname=ttf-iosevka-custom
-pkgver=22.1.1
+pkgver=22.1.2
 pkgrel=1
 pkgdesc='Typeface family designed for coding, terminal use and technical documents.'
 arch=('any')

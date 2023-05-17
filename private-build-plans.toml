@@ -7,6 +7,11 @@ shape = 571
 menu = 5
 css = "normal"
 
+[buildPlans.iosevka-custom.widths.extended]
+shape = 600
+menu  = 7
+css   = "expanded"
+
 [buildPlans.iosevka-custom.variants.design]
 capital-d = "more-rounded-serifless"
 capital-g = "toothless-corner-serifless-hooked"
@@ -39,13 +44,14 @@ bar = "force-upright"
 
 [buildPlans.iosevka-custom.variants.italic]
 capital-d = "standard-serifless"
+capital-m = "slanted-sides-hanging-motion-serifed"
 capital-r = "curly"
 f = "flat-hook-tailed"
 g = "single-storey-earless-corner-flat-hook"
 h = "tailed"
 j = "flat-hook-serifed"
 k = "cursive-bottom-right-serifed"
-l = "tailed"
+l = "tailed-serifed"
 m = "tailed-top-left-serifed"
 n = "tailed"
 p = "earless-corner"
