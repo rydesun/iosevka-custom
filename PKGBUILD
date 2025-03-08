@@ -1,14 +1,14 @@
 # Maintainer: rydesun <rydesun@gmail.com>
 
 pkgname=ttf-iosevka-custom
-pkgver=22.1.2
+pkgver=33.0.1
 pkgrel=1
 pkgdesc='Typeface family designed for coding, terminal use and technical documents.'
 arch=('any')
 groups=("custom")
-license=('OFL')
+license=('OFL-1.1-RFN')
 url='https://typeof.net/Iosevka/'
-makedepends=('nodejs>=14.0.0' 'ttfautohint' 'npm' 'git')
+makedepends=('nodejs>=18.0.0' 'ttfautohint' 'npm' 'git')
 source=('private-build-plans.toml')
 sha256sums=('SKIP')
 
@@ -31,6 +31,6 @@ build() {
 package() {
   cd "$pkgname-$pkgver"
   install -d "$pkgdir/usr/share/fonts/iosevka-custom/"
-  install -Dm644 dist/iosevka-custom/ttf/*.ttf "$pkgdir/usr/share/fonts/iosevka-custom/"
+  install -Dm644 dist/iosevka-custom/TTF/*.ttf "$pkgdir/usr/share/fonts/iosevka-custom/"
   install -Dm644 LICENSE.md "$pkgdir/usr/share/licenses/$pkgname/LICENSE.md"
 }

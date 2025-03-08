@@ -1,61 +1,30 @@
 [buildPlans.iosevka-custom]
 family = "Iosevka Custom"
-spacing = "fixed"
-
-[buildPlans.iosevka-custom.widths.normal]
-shape = 571
-menu = 5
-css = "normal"
-
-[buildPlans.iosevka-custom.widths.extended]
-shape = 600
-menu  = 7
-css   = "expanded"
+spacing = "term"
+noLigation = true
+exportGlyphNames = false
+noCvSs = true
 
 [buildPlans.iosevka-custom.variants.design]
-capital-d = "more-rounded-serifless"
-capital-g = "toothless-corner-serifless-hooked"
-capital-k = "curly-serifless"
-capital-q = "crossing"
-capital-v = "curly"
-capital-w = "curly"
-b = "toothless-corner"
-f = "flat-hook"
-g = "earless-corner"
+# 稍微圆润的线条
+capital-k = "curly-serifless" # K
+capital-v = "curly-serifless" # V
+capital-w = "curly-serifless" # W
 k = "curly-serifless"
-l = "serifed-flat-tailed"
-r = "hookless"
-t = "flat-hook"
-v = "curly"
-w = "curly"
-lower-lambda = "curly"
-one = "base"
-two = "curly-neck"
-four = "closed"
-six = "closed-contour"
-brace = "straight"
-asterisk = "penta-low"
-underscore = "above-baseline"
-caret = "low"
-number-sign = "slanted"
-dollar = "through-cap"
-percent = "rings-continuous-slash"
-bar = "force-upright"
+v = "curly-serifless"
+w = "curly-serifless"
+lower-lambda = 'curly-tailed-turn' # λ
 
-[buildPlans.iosevka-custom.variants.italic]
-capital-d = "standard-serifless"
-capital-m = "slanted-sides-hanging-motion-serifed"
-capital-r = "curly"
-f = "flat-hook-tailed"
-g = "single-storey-earless-corner-flat-hook"
-h = "tailed"
-j = "flat-hook-serifed"
-k = "cursive-bottom-right-serifed"
-l = "tailed-serifed"
-m = "tailed-top-left-serifed"
-n = "tailed"
-p = "earless-corner"
-q = "earless-corner"
-x = "curly-serifless"
-four = "semi-open"
-number-sign = "upright"
+# 垂直位置
+asterisk = "penta-low" # *居中
+caret = "low" # ^偏下
+underscore = "above-baseline" # _偏上
+
+four = "closed-serifless" # 4开口封闭
+capital-g = "toothless-corner-serifless-hooked" # G
+capital-q = "crossing-baseline" # Q
+l = "serifed-semi-tailed" # l撬棍
+six = "closed-contour"	# 6大弯钩
+dollar = "through-cap" # $缩短
+number-sign = "slanted" # 偏斜
+percent = "rings-continuous-slash" # %完全连接
